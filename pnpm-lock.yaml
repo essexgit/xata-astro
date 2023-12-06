@@ -17,6 +17,9 @@ dependencies:
   '@types/canvas-confetti':
     specifier: ^1.6.0
     version: 1.6.3
+  '@xata.io/client':
+    specifier: ^0.27.0
+    version: 0.27.0(typescript@5.3.2)
   astro:
     specifier: ^3.5.7
     version: 3.5.7(typescript@5.3.2)
@@ -1088,6 +1091,14 @@ packages:
 
   /@vscode/l10n@0.0.16:
     resolution: {integrity: sha512-JT5CvrIYYCrmB+dCana8sUqJEcGB1ZDXNLMQ2+42bW995WmNoenijWMUdZfwmuQUTQcEVVIa2OecZzTYWUW9Cg==}
+    dev: false
+
+  /@xata.io/client@0.27.0(typescript@5.3.2):
+    resolution: {integrity: sha512-tmmV4w7crXMtM/brizVUbg5u1eKPjagoSqt5ydSIe8xyi6VtHRGHTvZkeBNEHh8PaMAjjyRS2DsLgI59LASINg==}
+    peerDependencies:
+      typescript: '>=4.5'
+    dependencies:
+      typescript: 5.3.2
     dev: false
 
   /acorn-jsx@5.3.2(acorn@8.11.2):

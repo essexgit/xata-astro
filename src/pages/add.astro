@@ -1,0 +1,15 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { XataClient } from "../xata";
+
+const xata = new XataClient({
+  apiKey: import.meta.env.XATA_API_KEY,
+  branch: import.meta.env.XATA_BRANCH,
+});
+---
+
+<MainLayout title="Add a record">
+  <div class="w-full max-w-5xl mt-16">
+    <form action="/"></form>
+  </div>
+</MainLayout>

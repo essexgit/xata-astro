@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Ralph-Cox-s-workspace-qsbhuq.eu-west-1.xata.sh/db/xata-astro",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
